@@ -8,4 +8,4 @@ Original file is located at
 """
 
 scores = list(map(int, input().split()))
-print(sum(1 for s in scores if s < 60))
+print(max(scores), min(scores))
