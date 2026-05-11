@@ -8,5 +8,6 @@ Original file is located at
 """
 
 scores = list(map(int, input().split()))
+print(max(scores), min(scores))
 print("不及格人數:", sum(1 for s in scores if s < 60))
 print("平均數:", sum(scores) / len(scores))
